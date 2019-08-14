@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+      <NightlyDev_EmailSimulator>
+          <version>1.0.0.0</version>
+      </NightlyDev_EmailSimulator>
+  </modules>
+  <global>
+    <blocks>
+      <nightlydevemailsimulator>
+          <class>NightlyDev_EmailSimulator_Block</class>
+      </nightlydevemailsimulator>
+      <adminhtml>
+        <rewrite>
+          <system_email_template_edit>NightlyDev_EmailSimulator_Block_Adminhtml_System_Email_Template_Edit</system_email_template_edit>
+        </rewrite>
+      </adminhtml>
+    </blocks>
+    <helpers>
+      <nightlydevemailsimulator>
+          <class>NightlyDev_EmailSimulator_Helper</class>
+      </nightlydevemailsimulator>
+    </helpers>
+  </global>
+  <admin>
+    <routers>
+      <adminhtml>
+        <args>
+          <modules>
+            <nightlydevemailsimulator before="Mage_Adminhtml">NightlyDev_EmailSimulator</nightlydevemailsimulator>
+          </modules>
+        </args>
+      </adminhtml>
+    </routers>
+  </admin>
+  <adminhtml>
+      <layout>
+          <updates>
+              <nightlydevemailsimulator>
+                  <file>nightlydevemailsimulator.xml</file>
+              </nightlydevemailsimulator>
+          </updates>
+      </layout>
+  </adminhtml>
+</config>

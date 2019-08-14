@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>NightlyDev_EmailSimulator</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://license.nightlydev.org">GNU General Public License (GPLv3)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Test easy the Transactional Emails with sample data.</summary>
+    <description>Test easy the Transactional Emails with sample data..</description>
+    <notes>Test easy the Transactional Emails with sample data.</notes>
+    <authors><author><name>Carles Tubio</name><user>nightlydev</user><email>input@nightlydev.org</email></author></authors>
+    <date>2014-10-16</date>
+    <time>00:27:08</time>
+    <contents><target name="magecommunity"><dir name="NightlyDev"><file name="LICENSE" hash="d32239bcb673463ab874e80d47fae504"/><dir name="EmailSimulator"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Email"><dir name="Template"><file name="Edit.php" hash="bf9c40edde4d61a187f9307af9ab4269"/><file name="Simulator.php" hash="90657b38c6c4328079639a1c2617a24d"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="d32867a2a00d3456fda215e8593d7e1b"/></dir><dir name="controllers"><file name="NightlydevemailsimulatorController.php" hash="202e4927bd891b56058e79a2dae9b803"/></dir><dir name="etc"><file name="config.xml" hash="3f685d65c5a59b3c790947cd58f5b61d"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="nightlydevemailsimulator.xml" hash="03fbc4bb5c9005d650121d1d4c8d54c0"/></dir><dir name="template"><dir name="nightlydevemailsimulator"><dir name="system"><dir name="email"><dir name="template"><file name="simulator.phtml" hash="d0536bbb4e044490105c3138fc013a3c"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NightlyDev_EmailSimulator.xml" hash="82c159c11dec655b83dd4cc80cea62ef"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

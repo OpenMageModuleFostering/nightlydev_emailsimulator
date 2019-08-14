@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <systemPreviewNightlyDevSimulator>
+        <block type="core/template" name="root" output="toHtml" template="nightlydevemailsimulator/system/email/template/simulator.phtml">
+            <block type="nightlydevemailsimulator/adminhtml_system_email_template_simulator" name="content" as="content"></block>
+        </block>
+    </systemPreviewNightlyDevSimulator>
+</layout>
