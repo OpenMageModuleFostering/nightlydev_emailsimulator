@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/NightlyDev_EmailSimulator",
+    "name": "openmage-module-fostering\/nightlydev_emailsimulator",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPLv3)",
     "homepage": "",
