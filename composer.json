@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/NightlyDev_EmailSimulator",
+    "name": "OpenMageModuleFostering\/NightlyDev_EmailSimulator",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPLv3)",
     "homepage": "",
     "description": "Test easy the Transactional Emails with sample data.",
     "authors": [
-    {
-        "name": "Carles Tubio",
-        "email": "input@nightlydev.org"
-    }
-],
+        {
+            "name": "Carles Tubio",
+            "email": "input@nightlydev.org"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
